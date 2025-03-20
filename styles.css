@@ -1,0 +1,250 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 0;
+
+}
+
+.container__navbar ul {
+  justify-content: space-between;
+  gap: 3rem;
+  display: flex;
+  padding: 0 20px;
+  list-style: none;
+  font-size: 1.4rem;
+}
+
+.container__navbar a {
+  text-decoration: none;
+  color: ivory;
+}
+
+.header {
+  background-color: darkslategrey;
+}
+
+.container__title {
+  padding: 0 40px;
+  color: ivory;
+
+}
+
+li a {
+  cursor: pointer;
+  transition: all 0.15s;
+}
+li a:hover {
+ 
+  color: rosybrown;
+}
+
+.hero {
+  padding: 300px;
+  font-size: 2rem;
+  width: 100%;
+  height: 800px;
+  background-image: url(cat_img/cutest\ feline.jpg);
+  background-size: cover;
+  background-blend-mode: overlay;
+  background-color: rgba(0,0,0, 0.6);
+
+}
+.hero__title {
+  font-weight: bolder;
+  color: ivory;
+  
+}
+.hero__description {
+  color: ivory;
+}
+
+.feature {
+  padding: 100px;
+  font-size: 2rem;
+  margin: 10px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.feature .feature__container {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 50%;
+  align-items: center;
+  font-size: 2rem;
+  margin-bottom: 3rem;
+  gap: 3rem;
+  text-wrap: wrap;
+  flex-wrap: wrap;
+}
+
+.feature .feature__img-container {
+  display: flex;
+  flex-basis: 50%;
+}
+
+.feature__img {
+  width: 100%;
+  height: 100vh;
+}
+.feature__container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.feature__container .feature__content {
+  margin: 10px 0;
+}
+
+
+
+
+.cta {
+  padding: 100px;
+  font-size: 3rem;
+  background-color: darkslategrey;
+  text-align: center;
+  color: ivory;
+}
+
+.video {
+  padding: 100px;
+  margin: 10px 0;
+}
+
+.video__title {
+  color: #5b5b5b;
+  text-align: center;
+}
+.video__description {
+  text-align: center;
+
+}
+
+button {
+  border: none;
+  background: none;
+}
+
+.video__button {
+  padding: 10px 20px;
+  border: 1px solid green;
+  padding: 10px 20px;
+}
+
+.video__controls {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  gap: 3px;
+  padding: 30px 0;
+ 
+}
+
+.video__controls .video__button {
+  flex-basis: 120px;
+}
+
+.video__content {
+  margin-top: 10px;
+  width: 100%;
+  height: 700px;
+  background-color: #5b5b5b;
+  background-image: url(cat_img/playful\ cat.jpg);
+  background-size: cover;
+  background-position: bottom;
+  box-shadow: 4px 7px 7px 7px rgba(0,0,0, 0.3);
+  
+}
+
+.villian {
+  background-color: darkslategrey;
+  padding: 20px;
+}
+
+.villian__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.villian__nav ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 5px;
+  list-style: none;
+  margin: 0 50px;
+  flex-direction: column;
+  font-size: 1rem;
+  padding: 0 180px;
+}
+.villian__nav a {
+  text-decoration: none;
+  color: ivory;
+}
+
+.villian__title {
+  color: ivory;
+}
+
+.villian__description {
+  color: ivory;
+}
+
+.video__controls button {
+  cursor: pointer;
+  transition: all 0.15s;
+}
+.video__controls button:hover {
+ 
+  color: darkorchid;
+}
+
+.superman {
+  padding: 100px;
+ 
+}
+
+.superman__container {
+  font-size: 2rem;
+  font-family: Tahoma, sans-serif;
+  text-align: center;
+}
+
+.superman__images-container .img1 {
+  background-image: url(cat_img/pexels-leeloothefirst-6534386.jpg);
+  background-size: cover;
+}
+.superman__images-container .img2 {
+  background-image: url(cat_img/pexels-mochi-mochi-613800453-29611225.jpg);
+  background-size: cover;
+}
+.superman__images-container .img3 {
+  background-image: url(cat_img/pexels-sahar-photography-914616632-30856712.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+
+.superman__images-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 50px 0;
+  gap: 20px;
+}
+
+.superman .img-container {
+  background-color: #5b5b5b;
+  width: 100%;
+  height: 500px;
+}
+
